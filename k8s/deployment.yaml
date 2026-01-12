@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: innovibe-site
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: innovibe-site
+  template:
+    metadata:
+      labels:
+        app: innovibe-site
+    spec:
+      containers:
+        - name: innovibe-site
+          image: vkuldeep1/innovibe-site:7f63a4727450591e76079a2f5f0a20dbf10e3f2a
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "100m"
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
