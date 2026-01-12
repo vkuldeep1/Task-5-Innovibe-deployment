@@ -25,3 +25,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.tsminikube-linux-amd64
+
+minikube-linux-amd64
