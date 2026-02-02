@@ -3,7 +3,7 @@ It explains **what you did, why you did it, and what you proved**, in a way **yo
 
 You can paste this directly into `README.md`.
 
----
+----
 
 # Innovibe Site – DevOps Work Report
 
